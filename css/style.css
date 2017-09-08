@@ -329,38 +329,6 @@ p {
 .featured-box-col2 {
 	overflow: hidden;
 }
-.featured-box.magic {
-	background: url(../img/magic.png) left top no-repeat;
-}
-.featured-box.packaged {
-	background: url(../img/packaged.png) left top no-repeat;
-}
-.featured-box.seo {
-	background: url(../img/seo.png) left top no-repeat;
-}
-.Learn-More {
-	display: inline-block;
-	padding: 0 5px 0 0;
-	color: #7cc576;
-	font-size: 16px;
-
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 400;
-	line-height: 24px;
-	transition: all 0.3s ease-in-out;
-	-moz-transition: all 0.3s ease-in-out;
-	-webkit-transition: all 0.3s ease-in-out;
-	display: none;
-}
-.Learn-More i {
-	padding-right: 15px;
-}
-
-.Learn-More:hover,
-.Learn-More:focus {
-	text-decoration: none;
-	color: #111;
-}
 
 /* Portfolio
 ---------------------------------*/
@@ -1304,4 +1272,11 @@ FOLLOW BUTTON
 .goright {
 	text-align: right;
 	font-weight: bold;
+}
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.rise{
+	padding-top: -50px;
 }
