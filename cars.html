@@ -38,7 +38,7 @@
   		<div class="container">
         <ul class="main-nav">
   					<li><a href="aboutUs.html">About Us</a></li>
-            <li><a href="cars.html">Our Cars</a></li>
+            <li><a href="cars.html" class="res-nav-selected">Our Cars</a></li>
   					<li class="small-logo"><a href="#header"><img src="img/small-logo.png" alt=""></a></li>
   					<li><a href="sponsors.html">Our Sponsors</a></li>
   					<li><a href="join.html">Get Involved</a></li>
@@ -48,19 +48,115 @@
   	</nav>
     <!--main-nav-end-->
 
+    <style>
+      #titleText {
+        font-size: 50px;
+        text-align: center;
+        color: #ffd700;
+      }
+
+      #titleTextContainer {
+        background-color: #3e54a1;
+        padding-top: 1px;
+        padding-bottom: 5px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        width: 300px;
+        margin: 0px auto;
+        margin-bottom: 10px;
+        box-shadow: 5px 5px 5px #888888;
+      }
+
+      #headerText {
+        font-size: 30px;
+        color: #001333;
+      }
+
+      .mainCol {
+        height: 350px;
+      }
+
+      #headerImg {
+        width: 80%;
+        align: middle;
+        border-style: solid;
+        border-color: #fcfdff;
+        border-right-color: grey;
+      }
+
+      .specList {
+        font-size: 23px;
+        font-family: sans-serif;
+        color: #424344;
+      }
+
+      .specListElement {
+        margin-top: 10px;
+      }
+
+      .parallax {
+        /* The image used */
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("img/ontheline.jpg");
+
+        /* Set a specific height */
+        min-height:800px;
+
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      #developmentDiv {
+        text-align: center;
+        height: 300px;
+        width: 100%;
+      }
+
+      .developmentElement {
+        background-color: rgba(0, 0, 0, 0.0);
+        color: white;
+      }
+    </style>
+
+
     <!--header-start-->
-    <header class="carsHeader" id="header">
-  		<div class="container">
-  	    	<!--<figure class="logo animated fadeInDown delay-07s">
-  	        	<a href="#"><img src="img/logo.png" alt=""></a>
-  	        </figure>-->
-        <h1 class="animated fadeInDown delay-07s goright">WHO WE ARE</h1>
-        <ul class="we-create animated fadeInUp delay-1s goright">
-        	<li>AND WHY WE RACE</li>
-        </ul>
-			</div>
-  	</header>
+    <div id=titleTextContainer>
+      <h1 id="titleText">Our Cars</h1>
+    </div>
+
+    <section style="background-color: #fcfdff; padding-top: 20px; padding-bottom: 50px;">
+      <div class="container">
+        <div class="row-eq-height">
+          <div class="col-lg-8 mainCol animated slideInLeft 6s">
+            <img id="headerImg" src="img/sr9spNoBackground.png"></img>
+          </div>
+          <div class="col-lg-4 mainCol animated rotateInDownRight 3s">
+            <h4 id="headerText" class="animated fadeInUpBig 3s">SR - 9</h4>
+            <ul id="currentCarSpec" class="specList">
+              <li class="specListElement">Engine: Triumph 678 Triple</li>
+              <li class="specListElement">Horsepower: 80hp @9000rpm</li>
+              <li class="specListElement">Top Speed: </li>
+              <li class="specListElement">0-60 mph: 4.156s </li>
+              <li class="specListElement">Torque: 52 ft-lbs</li>
+              <li class="specListElement">Weight: 570 lbs</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!--header-end-->
+
+    <div class="parallax" style="padding-top: 70px;">
+      <div id="developmentDiv" class="developmentElement">
+        <p class="developmentElement" style="font-size: 32px;">Development</p>
+        <div style="height: 1px; width: 100px; margin: 20px auto; background-color: white;"></div>
+      </div>
+    </div>
+
+
 
   </body>
 </html>
