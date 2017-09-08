@@ -41,10 +41,10 @@
 	<div style="overflow:hidden;"></div>
 	<nav class="main-nav-outer" id="test"><!--main-nav-start-->
 		<div class="container">
-	        <ul class="main-nav">
-							<li><a href="aboutUs.html">About Us</a></li>
+	        <ul style="margin-left: 70px" class="main-nav">
+							<li><a class="res-nav-selected" href="aboutUs.html">About Us</a></li>
 	            <li><a href="cars.html">Our Cars</a></li>
-							<li class="small-logo"><a href="home.html"><img src="img/small-logo.png" alt=""></a></li>
+							<li class="small-logo"><a href="home.html"><img style="width: 90px;" src="img/logo.png" alt=""></a></li>
 							<li><a href="sponsors.html">Our Sponsors</a></li>
 							<li><a href="join.html">Get Involved</a></li>
 	        </ul>
@@ -266,13 +266,15 @@ wow.init();
 	$('.main-nav li a').bind('click', function(event) {
 		var $anchor = $(this);
 
-		$('html, body').stop().animate(
-			{
-				scrollTop: $($anchor.attr('href')).offset().top - 102
-			},
-			1500,
-			'easeInOutExpo'
-		);
+		$('html, body')
+			.stop()
+			.animate(
+				{
+					scrollTop: $($anchor.attr('href')).offset().top - 102
+				},
+				1500,
+				'easeInOutExpo'
+			);
 		/*
 				if you don't want to use the easing effects:
 				$('html, body').stop().animate({

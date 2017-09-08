@@ -650,7 +650,11 @@ s
 	-moz-transition: 0.7s ease-out;
 	-o-transition: 0.7s ease-out;
 	transition: 0.7s ease-out;
-	list-style: none;
+}
+
+ul > li {
+	margin-left: 20px;
+	margin-bottom: 10px;
 }
 
 /*================================
@@ -960,6 +964,7 @@ blockquote p {
 
 .res-nav_click:hover,
 .res-nav_click:active,
+.res-nav-selected,
 .res-nav_click:focus {
 	color: #7cc576 !important;
 }
@@ -1021,11 +1026,12 @@ blockquote p {
 	text-align: right;
 	font-weight: bold;
 }
-html, body {
-    max-width: 100%;
-    overflow-x: hidden;
+html,
+body {
+	max-width: 100%;
+	overflow-x: hidden;
 }
-.rise{
+.rise {
 	padding-top: -50px;
 }
 .smallify{
