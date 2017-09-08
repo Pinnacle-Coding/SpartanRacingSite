@@ -13,7 +13,7 @@
 
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
 <link href="css/style.css" rel="stylesheet" type="text/css">
-<link href="css/font-awesome.css" rel="stylesheet" type="text/css">
+<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
 <link href="css/responsive.css" rel="stylesheet" type="text/css">
 <link href="css/animate.css" rel="stylesheet" type="text/css">
 
@@ -44,7 +44,7 @@
 	        <ul class="main-nav">
 							<li><a href="aboutUs.html">About Us</a></li>
 	            <li><a href="cars.html">Our Cars</a></li>
-							<li class="small-logo"><a href="#header"><img src="img/small-logo.png" alt=""></a></li>
+							<li class="small-logo"><a href="home.html"><img src="img/small-logo.png" alt=""></a></li>
 							<li><a href="sponsors.html">Our Sponsors</a></li>
 							<li><a href="join.html">Get Involved</a></li>
 	        </ul>
@@ -80,7 +80,7 @@
 	<section class="main-section">
 		<div class="container">
 	    	<div class="row">
-						<figure class="col-lg-5 col-sm-4 wow fadeInLeft" war>
+						<figure class="col-lg-5 col-sm-4 wow fadeInLeft">
 			      		<img  src="http://lorempixel.com/output/abstract-q-c-720-720-1.jpg" alt="">
 			      </figure>
 	        	<div class="col-lg-7 col-sm-8 featured-work">
@@ -127,7 +127,7 @@
 		#map {
 			height: 522px;
 			width: 528px;
-			margin: 15px auto;
+			margin: -30px auto;
 		}
 
 		.addRightBorder {
@@ -136,34 +136,40 @@
 			border-right-color: lightgrey;
 		}
 
-		.headerText {
-			text-decoration: underline;
-		}
-
 		#instafeed {
-			margin: 0 auto;
+			margin: -45px auto;
 			width: 544px;
 			height: 544px;
 		}
+		.lildrop{
+			padding-top: 10px;
+		}
+		.bigify{
+			font-size: 30px;
+		}
 	</style>
 
-	<div class="container" style="width: 100%; padding: 0;  margin: 0px; text-align: center;">
-		<div class="row">
-			<div class="col-sm-6">
-				<h3 class="flow-text headerText">Where to Find Us</h3>
+	<div class="container" style="width: 100%; padding: 0; text-align: center;">
+		<div class="col-sm-6 addRightBorder">
+			<div class="row">
+				<h3 class="bigify">Where to Find Us</h3>
+					<h6 class="lildrop"><i class="fa fa-map-marker"></i>1 Washington Sq, San Jose, CA 95192</h6>
 			</div>
-			<div class="col-sm-6">
-				<h3 class="flow-text headerText">Check Out What We Are Up To</h3>
-			</div>
-		</div>
-		<div class="row" style="padding: 0px; margin: 0px; width: 100%;">
-			<div class="col-md-6 addRightBorder mapInstaContainer">
+			<div class="row rise">
 				<div id="map"></div>
 			</div>
-			<div class="col-md-6 mapInstaContainer">
+		</div>
+		<div class="col-sm-6">
+			<div class="row">
+				<h3 class="bigify">Check Out What We Are Up To</h3>
+					<h6 class="lildrop"><i class="fa fa-instagram"></i>sjsuformulasae</h6>
+			</div>
+			<div class="row rise">
 				<div id="instafeed"></div>
 			</div>
 		</div>
+		</div>
+
 	</div>
 
 		<script>
