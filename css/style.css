@@ -112,14 +112,22 @@ p{
 .headersp{
 	text-align:center;
 	background:url(../images/sr9sp.jpg) left top repeat;
-  background-size:cover;
-	padding:280px 0;
+  background-size: 100% auto;
+	padding:340px 0;
 }
 .logo{
 	width:130px;
 	margin:0 auto 35px;
 }
 .header h1{
+	font-family: 'Montserrat',sans-serif;
+	font-size:50px;
+	font-weight:600;
+	letter-spacing: -1px;
+	margin:0 0 22px 0 ;
+	color:#fff;
+}
+.headersp h1{
 	font-family: 'Montserrat',sans-serif;
 	font-size:50px;
 	font-weight:600;
@@ -139,7 +147,7 @@ p{
 	display:inline-block;
 	font-family: 'Montserrat',sans-serif;
 	font-size:20px;
-	color: #4169e1;
+	color: #779ecb;
 	text-transform: uppercase;
 	font-weight: 600;
 	margin:0 5px 0 0;
@@ -431,7 +439,7 @@ img {
 }
 .client-part{
 	background:url(../img/cad-thing.jpg) center center no-repeat;
-	background-size:cover;
+	background-size:100% 100%;
 	padding:55px 0;
 	text-align:center;
 }
@@ -459,6 +467,8 @@ img {
 .client li a img{
 	margin-bottom:15px;
 	border-radius:50%;
+  width: 150px;
+  length: 150px;
 }
 .client li a:hover{
 	text-decoration:none;
