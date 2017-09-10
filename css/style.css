@@ -130,9 +130,9 @@ p {
 .carsHeader {
 	text-align: center;
 	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-		url(../img/studentunion.jpg) left bottom repeat;
+		url(../img/cars/5cars.png) left bottom;
 	background-size: 100% auto;
-	padding: 280px 0;
+	padding: 320px 0;
 }
 .headersp {
 	text-align: center;
