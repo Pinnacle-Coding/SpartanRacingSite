@@ -1045,8 +1045,8 @@ body {
 .smallify {
 	font-size: 20px;
 }
-.plat{
-	max-width:500px;
-	display:block;
-	margin:auto;
+.plat {
+	width: 70%;
+	display: block;
+	margin: 0px auto;
 }
