@@ -1034,6 +1034,7 @@ blockquote p {
 	text-align: right;
 	font-weight: bold;
 }
+
 html,
 body {
 	max-width: 100%;
@@ -1045,8 +1046,42 @@ body {
 .smallify {
 	font-size: 20px;
 }
+
 .plat {
-	width: 70%;
+	height: 150px;
+	margin: 0px 20px -10px 20px;
+}
+
+.diamond {
+	height: 200px;
+	margin: 0px 20px -10px 20px;
+}
+
+.gold {
+	height: 100px;
+	margin: 0px 10px -10px 10px;
+}
+
+.silver {
+	height: 100px;
+	margin: 0px 20px 15px 20px;
+}
+
+.sponsorContainer {
+	position: relative;
 	display: block;
-	margin: 0px auto;
+	padding: 10px;
+}
+
+.sponsorContainer:hover {
+	border-radius: 40px;
+	background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+}
+
+.sponsorImage {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	max-height: 90%;
 }
