@@ -60,8 +60,8 @@
           <h2>Meet Our Team Leads</h2>
           <div class="team-leader-block clearfix">
               <div class="team-leader-box">
-                  <div class="team-leader wow fadeInDown" data-wow-delay=".3s">
-                      <div class="team-leader-shadow"><a href="#"></a></div>
+                  <div class="team-leader wow fadeInDown" data-toggle="modal" data-target="#busMod" data-wow-delay=".3s">
+                      <div class="team-leader-shadow"></div>
                       <img src="img/josiah.jpg" alt="">
                   </div>
                   <h3 class="wow fadeInDown" data-wow-delay=".3s">Josiah Lopez</h3>
@@ -70,7 +70,7 @@
                   <p class="wow fadeInDown" data-wow-delay=".3s" style="margin-top:-5px">408-903-0423</p>
               </div>
   						<div class="team-leader-box">
-  								<div class="team-leader wow fadeInDown" data-wow-delay=".45s">
+  								<div class="team-leader wow fadeInDown" data-toggle="modal" data-target="#powMod" data-wow-delay=".45s">
   										<div class="team-leader-shadow"><a href="#"></a></div>
   										<img src="img/moy.jpg" alt="">
   								</div>
@@ -80,7 +80,7 @@
                   <p class="wow fadeInDown" data-wow-delay=".45s" style="margin-top:-5px">510-378-4672</p>
   						</div>
               <div class="team-leader-box">
-                  <div class="team-leader wow fadeInDown" data-wow-delay=".6s">
+                  <div class="team-leader wow fadeInDown" data-toggle="modal" data-target="#susMod" data-wow-delay=".6s">
                       <div class="team-leader-shadow"><a href="#"></a></div>
                       <img src="img/dusty.jpg" alt="">
                   </div>
@@ -90,7 +90,7 @@
                   <p class="wow fadeInDown" data-wow-delay=".6s" style="margin-top:-5px">925-588-8651</p>
               </div>
   						<div class="team-leader-box">
-  								<div class="team-leader wow fadeInDown" data-wow-delay=".75s">
+  								<div class="team-leader wow fadeInDown" data-toggle="modal" data-target="#chaMod" data-wow-delay=".75s">
   										<div class="team-leader-shadow"><a href="#"></a></div>
   										<img src="img/gordon.jpg" alt="">
   								</div>
@@ -99,7 +99,7 @@
   								<p class="wow fadeInDown" data-wow-delay=".75s" style="margin-top:-30px">mvlee29@gmail.com</p>
   						</div>
   						<div class="team-leader-box">
-  								<div class="team-leader wow fadeInDown" data-wow-delay=".9s">
+  								<div class="team-leader wow fadeInDown" data-toggle="modal" data-target="#aeroMod" data-wow-delay=".9s">
   										<div class="team-leader-shadow"><a href="#"></a></div>
   										<img src="img/david.jpg" alt="">
   								</div>
@@ -111,6 +111,87 @@
           </div>
       </div>
   </section><!--main-section team-end-->
+
+  <!-- Modal -->
+  <div class="modal fade" id="busMod" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title" id="exampleModalLabel">Business Sub-team</h3>
+          <button type="button" class="close" style="margin-top:-30px" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          The Business sub-team manages the club operations, functions, sponsorships, finances, and social media. The business team operates in the background as a foundation to ensure every season runs smoothly.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="powMod" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title" id="exampleModalLabel">Powertrain Sub-team</h3>
+          <button type="button" class="close" style="margin-top:-30px" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          The Powertrain sub-team is responsible for the design, manufacture, and testing of all the engine related systems on the vehicle. These systems include the engine and transmission, differential and final drive, cooling , electrical, intake, pneumatic shifting, and the calibration of these systems. Some of the disciplines covered through the design process are CAD/CAM, engine simulation, Intake/exhaust CFD, circuit design, drivetrain simulation, and extensive engine and drivetrain tuning.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="susMod" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title" id="exampleModalLabel">Suspension Sub-team</h3>
+          <button type="button" class="close" style="margin-top:-30px" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          The Suspension sub-team designs components using simulations and geometric principles that are responsible for directly connecting the vehicle to the road. These components include tire selection, control arms, suspension geometry, steering, brakes, and overall parameter setups.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="chaMod" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title" id="exampleModalLabel">Chassis Sub-team</h3>
+          <button type="button" class="close" style="margin-top:-30px" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          The Chassis sub-team focuses on frame design of the car, ergonomics, and safety systems. In order to engineer a fast car, gains in structural stiffness can improve the performance of the car drastically. Ergonomic systems that have been touched by chassis development to improve driver performance include pedal box placement, steering wheel position and design, seat angle and position, and dashboard arrangement.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="aeroMod" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title" id="exampleModalLabel">Aerodynamics Sub-team</h3>
+          <button type="button" class="close" style="margin-top:-30px" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          The Aerodynamics sub-team is responsible for the design and validation of all aerodynamic components on our vehicles with emphasis on air cooling and downforce to drag ratios. In addition to this, the aerodynamics sub-team has, but is not limited to, the responsibility of carbon/composite manufacturing techniques used on our aerodynamic components.
+        </div>
+      </div>
+    </div>
+  </div>
 
   <section style="margin-bottom: 60px;">
     <h2>How To Join!</h2>
