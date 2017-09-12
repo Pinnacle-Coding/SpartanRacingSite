@@ -541,14 +541,14 @@ s
 /* Team
 ---------------------------------*/
 .team-leader-block {
-	max-width: 3000px;
-	margin: 0 auto;
+	max-width: 100%;
+	margin: 0px auto;
 }
 .team-leader-box {
 	width: 20%;
 	margin-right: 0%;
 	height: 300px;
-	overflow: hidden;
+	overflow:visible;
 	text-align: center;
 	float: left;
 }
